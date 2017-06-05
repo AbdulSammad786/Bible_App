@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1002931689631",
+    "project_id": "defaolt-demo-app-6a6de"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1002931689631:android:d2695c05965d30fd",
+        "android_client_info": {
+          "package_name": "app.bible"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1002931689631-idn1rup9h8oig6nfa0c3v519rcaoa1jh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "app.bible",
+            "certificate_hash": "006ce97e457bed95e89cb4fada62c32a653dc44d"
+          }
+        },
+        {
+          "client_id": "1002931689631-pib3ljmh7t1kf8elibcraf82dmbeils2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA-fioIwCrPzSod3MWfSQQhF5NkOj8mo2k"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
