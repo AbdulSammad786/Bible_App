@@ -12,6 +12,7 @@ import android.view.MenuItem;
 import android.view.View;
 
 import com.example.abdulsamad.bible.Fragments.HomeFragment;
+import com.example.abdulsamad.bible.Fragments.ReadBook;
 import com.example.abdulsamad.bible.R;
 public class Home extends AppCompatActivity {
     @Override
@@ -59,7 +60,7 @@ public class Home extends AppCompatActivity {
                             case R.id.read:
                                 item.setIcon(R.drawable.read);
                                 transaction = getSupportFragmentManager().beginTransaction();
-                                transaction.replace(R.id.container, new HomeFragment()).commit();
+                                transaction.replace(R.id.container, new ReadBook()).commit();
                                 break;
                             case R.id.plans:
                                 item.setIcon(R.drawable.plans);

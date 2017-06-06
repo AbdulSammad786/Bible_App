@@ -8,14 +8,14 @@ import android.view.View;
 import android.view.ViewGroup;
 import com.example.abdulsamad.bible.R;
 /**
- * Created by ABDUL Samad on 5/8/2017.
+ * Created by ABDUL Samad on 6/6/2017.
  */
-public class HomeFragment extends Fragment {
+
+public class Discover  extends Fragment {
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        View view = inflater.inflate(R.layout.home_fragment, null, false);
-        return  view;
+        View view = inflater.inflate(R.layout.discover_fragment, null, false);
+      return  view;
     }
-
 }
